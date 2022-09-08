@@ -30,9 +30,9 @@ function destroyBoxes() {
   refs.inputNumber.value = "";
 }
 
-function oncCreateBtnClick() {
+function onCreateBtnClick() {
   createBoxes(refs.inputNumber.value);
 }
 
-refs.createBtn.addEventListener("click", oncCreateBtnClick);
+refs.createBtn.addEventListener("click", onCreateBtnClick);
 refs.destroyBtn.addEventListener("click", destroyBoxes);
