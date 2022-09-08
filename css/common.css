@@ -24,15 +24,18 @@ button {
 }
 
 .gallery {
-  list-style: none;
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
 }
 
-.gallery__item {
-  width: calc(100%-90px)/3;
-  margin-left: 30px;
-  margin-top: 30px;
+.gallery__img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 400px;
+  height: 280px;
 }
