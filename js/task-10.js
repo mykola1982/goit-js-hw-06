@@ -36,4 +36,3 @@ function oncCreateBtnClick() {
 
 refs.createBtn.addEventListener("click", oncCreateBtnClick);
 refs.destroyBtn.addEventListener("click", destroyBoxes);
-і;
